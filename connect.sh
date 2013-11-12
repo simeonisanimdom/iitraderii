@@ -1,0 +1,1 @@
+ssh -i lmax.pem ubuntu@ec2-54-201-20-144.us-west-2.compute.amazonaws.com

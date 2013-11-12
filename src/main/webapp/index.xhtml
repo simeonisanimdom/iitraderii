@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-W3CDTD XHTML 1.0 TransitionalEN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+
+</h:head>
+
+<h:body>
+    <h:form id="form">
+        <p:poll interval="1" update="ma"/>
+        <p:lineChart id="ma" value="#{maChartBean.model}" legendPosition="e" xaxisAngle="270" title="Moving Averages"/>
+    </h:form>
+</h:body>
+</html>

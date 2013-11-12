@@ -1,0 +1,7 @@
+@Name ('AvgPriceBuy30min')
+insert into AvgPriceBuy
+    select avg(priceBuy) as avgPriceBuy30min from StockTick.win:time(30 min);
+
+@Name ('AvgPriceBuy3h')
+insert into AvgPriceBuy
+    select avg(priceBuy) as avgPriceBuy3h from StockTick.win:time(3h);

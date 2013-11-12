@@ -1,0 +1,1 @@
+scp -i lmax.pem ./target/blind-trader-1.0-SNAPSHOT-jar-with-dependencies.jar ubuntu@ec2-54-201-20-144.us-west-2.compute.amazonaws.com:~
